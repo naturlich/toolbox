@@ -49,7 +49,8 @@ RUN cat /etc/os-release && \
         tree \
         xz \
         zip \
-        inotify-tools
+        inotify-tools \
+        audit
 
 VOLUME ["/media/root"]
 
