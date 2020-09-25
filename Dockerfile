@@ -48,7 +48,8 @@ RUN cat /etc/os-release && \
         tcpdump \
         tree \
         xz \
-        zip
+        zip \
+        inotify-tools
 
 VOLUME ["/media/root"]
 
